@@ -61,6 +61,8 @@ class PhysicsInformedNN(nn.Module):
         output = self.combined(combined)
 
         return output
+import __main__
+setattr(__main__, "PhysicsInformedNN", PhysicsInformedNN)   
 
 # --- 2. MODEL LOADING ---
 def load_model():
