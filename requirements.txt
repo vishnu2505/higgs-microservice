@@ -1,6 +1,6 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
 flask==3.0.0
 flask-cors==4.0.0
-# Using the CPU-only wheel to keep slug size small (<500MB)
-torch==2.1.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.0+cpu
 numpy==1.24.3
 gunicorn==21.2.0
